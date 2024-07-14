@@ -1,0 +1,11 @@
+.custom-quill-editor {
+  height: 350px;
+}
+
+.custom-quill-editor .ql-container {
+  height: 80%;
+}
+
+.custom-quill-editor .ql-editor {
+  height: calc(100% - 42px);
+}

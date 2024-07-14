@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+textarea {
+  @apply px-4 py-3 rounded-2xl w-full focus:outline-gray-600 text-black;
+}
+
+button.primary {
+  @apply px-4 py-3 rounded-2xl w-full bg-primary hover:opacity-85 text-white;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
